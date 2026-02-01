@@ -1,16 +1,31 @@
-# React + Vite
+# **FSD-2 Laboratory Work - Aastha Shukla **
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository serves as a comprehensive collection of laboratory assignments for the **Full Stack Development-2** course. The focus of this work is on building modern, scalable, and efficient frontend architectures using the React ecosystem.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **Full Stack Development Overview**
 
-## React Compiler
+Full Stack Development involves working on both the **Frontend** (client-side) and **Backend** (server-side) of an application. 
+* **Frontend:** Focuses on the user interface and experience using technologies like React.js and Vite.
+* **Backend:** Handles business logic, database management, and API integrations.
+* 
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## **Project Structure**
 
-## Expanding the ESLint configuration
+To maintain a clean and organized workflow, each experiment in this repository is hosted on a dedicated **Git Branch**. This allows for isolation of code and easy navigation between different topics.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## **How to Access a Particular Experiment & README**
+
+To view the detailed code and documentation for a specific experiment, please follow these steps:
+
+1. **Switch Branch:** Click the button labeled **"main"** at the top-left of the file explorer.
+2. **Select Experiment:** Choose the branch name for the experiment you want (e.g., `exp4` for Experiment 4).
+3. **View Folder:** Once the branch opens, click on the **Experiment folder** (e.g., `Experiment-4`).
+4. **Read Documentation:** The detailed README for that specific experiment will automatically appear at the bottom of the folder view, explaining the Aim, Theory, and Steps.
+
+---
+
