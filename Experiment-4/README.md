@@ -1,16 +1,43 @@
-# React + Vite
+## **Aim**
+To understand and implement different ways of managing state in a React application, including Local State using hooks and Global State using Context API and Redux.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## **Theory**
+State management is the process of managing the data that a localized component or an entire application needs to render.
 
-Currently, two official plugins are available:
+Local State: Managed within a single component using the useState hook. It is ideal for data that doesn't need to be shared elsewhere.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Global State (Context API): A built-in React feature that allows sharing data across the component tree without "prop drilling."
 
-## React Compiler
+Global State (Redux): A predictable state container for JavaScript apps that uses a centralized Store, Reducers, and Actions to manage complex global states.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## **Folder Structure & Implementation**
+Based on the project structure:
 
-## Expanding the ESLint configuration
+components/context: Contains logic for Global State using React Context.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+store: Contains Store.jsx and CounterReducer.jsx for Redux implementation.
+
+CounterLocalState: Component demonstrating the useState hook.
+
+ ## **Steps to Run**
+Install Dependencies: Run npm install in the terminal to install React, Redux, and React-Redux.
+
+Start Development Server: Run npm run dev to launch the Vite application.
+
+Local State: Observe the counter incrementing independently in the Local State component.
+
+Context API: Check how the state is shared across multiple components using the Provider.
+
+Redux: Observe the state being dispatched through actions and updated via the centralized Reducer.
+
+## **Learning Outcomes**
+Learned how to use the useState hook for component-level data.
+
+Gained hands-on experience in setting up a Context.Provider and useContext hook.
+
+Understood the Redux workflow.
+
+Identified when to use Local vs. Global state based on application complexity.
+
+## **Conclusion**
+This experiment successfully demonstrates the implementation of various state management techniques. While useState is sufficient for simple tasks, Context API and Redux provide more robust solutions for handling data across large-scale applications.
