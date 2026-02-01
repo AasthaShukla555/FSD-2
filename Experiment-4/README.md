@@ -1,4 +1,4 @@
-# **FSD-2 Laboratory Work - Aastha Shukla **
+# **FSD-2 Laboratory Work - Aastha Shukla**
 
 This repository serves as a comprehensive collection of laboratory assignments for the **Full Stack Development-2** course. The focus of this work is on building modern, scalable, and efficient frontend architectures using the React ecosystem.
 
